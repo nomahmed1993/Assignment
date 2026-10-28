@@ -1,0 +1,132 @@
+* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #3b2418;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+    color: #e8b77d;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #e8b77d;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)),
+        url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 70px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+.cafe-btn {
+    background-color: #a66b42;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cafe-btn:hover {
+    background-color: #3b2418;
+    color: white;
+}
+
+/* Common Section Styling */
+.section-padding {
+    padding: 70px 0;
+}
+
+h2 {
+    font-weight: bold;
+    color: #3b2418;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+.about img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+/* Menu Section */
+.menu-section {
+    background-color: #f8f2eb;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+}
+
+.menu-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.menu-card .card-title {
+    color: #3b2418;
+    font-weight: bold;
+}
+
+.price {
+    color: #a66b42;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
